@@ -1,0 +1,397 @@
+<mjml>
+  <mj-head>
+    <mj-title> AXA SmartHome </mj-title>
+
+    <!-- START of Global Attributes -->
+    <mj-breakpoint width="800px" />
+    <mj-attributes>
+      <mj-all padding="0" font-family="Arial" line-height="1.4" />
+    </mj-attributes>
+    <!-- END of Global Attributes -->
+
+    <!-- START of Inline Style Overrides -->
+    <!-- prettier-ignore -->
+    <mj-style inline="inline">
+      .inline-img {
+        display: inline;
+        outline: none;
+        border: 0;
+        font-size: 13px;
+        text-decoration: none;
+      }
+
+      .brand-img {
+        display: block;
+        outline: none;
+        border: 0;
+        width: 410px;
+        height: auto;
+        font-size: 13px;
+        text-decoration: none;
+      }
+
+      .btn-block {
+        display: block;
+        margin: 0;
+        width: 100%;
+        background: transparent;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 11px;
+        line-height: 1.4;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .btn-text {
+        display: inline-block;
+        margin: 0;
+        background: transparent;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 11px;
+        line-height: 1.4;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .social-facebook-img {
+        width: 72px;
+        height: auto;
+      }
+
+      .social-youtube-img,
+      .social-linkedin-img {
+        width: 31px;
+        height: auto;
+      }
+    </mj-style>
+    <!-- END of Inline Style Overrides -->
+
+    <!-- START of Internal/Mobile Styles -->
+    <!-- prettier-ignore -->
+    <mj-style>
+      .btn-text-hover a:hover,
+      a.btn-text-hover:hover {
+        cursor: pointer !important;
+        text-decoration: underline !important;
+      }
+
+      .btn-hover a:hover {
+        background-color: #0d2459 !important;
+      }
+
+      @media only screen and (max-width: 799px) {
+        .wrapper > table > tbody > tr > td {
+          padding-top: 0 !important;
+          padding-bottom: 0 !important;
+        }
+
+        .brand-img {
+          width: 100% !important;
+          max-width: 410px !important;
+        }
+      }
+    </mj-style>
+    <!-- END of Internal/Mobile Styles -->
+
+    <mj-raw>
+      <!-- START of Google Tag Manager -->
+      <script>
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != "dataLayer" ? "&l=" + l : "";
+          j.async = true;
+          j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-TSMLTPT");
+      </script>
+      <!-- END of Google Tag Manager -->
+
+      <link rel="icon" href="https://dominicarrojado.com/favicon.ico" />
+      <meta name="theme-color" content="#d7e1e9" />
+      <meta name="description" content="Email template for AXA SmartHome" />
+      <link
+        rel="canonical"
+        href="https://dominicarrojado.com/axa-smart-home-edm/"
+      />
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="AXA SmartHome - Dominic Arrojado" />
+      <meta
+        property="og:description"
+        content="Email template for AXA SmartHome"
+      />
+      <meta
+        property="og:url"
+        content="https://dominicarrojado.com/axa-smart-home-edm/"
+      />
+      <meta
+        property="og:site_name"
+        content="AXA SmartHome - Dominic Arrojado"
+      />
+      <meta
+        property="og:image"
+        content="https://dominicarrojado.com/axa-smart-home-edm/images/axa-smart-home-screenshot.png"
+      />
+      <meta
+        property="og:image:secure_url"
+        content="https://dominicarrojado.com/axa-smart-home-edm/images/axa-smart-home-screenshot.png"
+      />
+      <meta property="og:image:width" content="2880" />
+      <meta property="og:image:height" content="1800" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="twitter:description"
+        content="Email template for AXA SmartHome"
+      />
+      <meta name="twitter:title" content="AXA SmartHome - Dominic Arrojado" />
+      <meta
+        name="twitter:image"
+        content="https://dominicarrojado.com/axa-smart-home-edm/images/axa-smart-home-screenshot.png"
+      />
+    </mj-raw>
+  </mj-head>
+  <mj-body width="800px" background-color="#d7e1e9">
+    <mj-wrapper css-class="wrapper" padding="40px 0">
+      <!-- START of View In Browser -->
+      <mj-section>
+        <mj-group>
+          <mj-column
+            width="100%"
+            background-color="#343c3f"
+            padding="15px 20px"
+          >
+            <mj-button
+              href="#"
+              css-class="btn-text-hover"
+              align="center"
+              background-color="transparent"
+              inner-padding="0"
+              color="#ffffff"
+              font-size="13px"
+            >
+              Click here to view this email in your browser
+            </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of View In Browser -->
+
+      <!-- START of Brand -->
+      <mj-section background-color="#ffffff">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-text>
+              <a
+                href="https://www.axa.com.sg/"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="btn-block"
+              >
+                <img
+                  src="images/logo-axa-redefining-insurance.png"
+                  class="brand-img"
+                />
+              </a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Brand -->
+
+      <!-- START of Hero Image 1 -->
+      <mj-section>
+        <mj-group>
+          <mj-column width="100%">
+            <mj-image
+              src="images/banner-axa-smart-home.png"
+              alt="laughing mom holding baby at the dining table"
+            />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Hero Image 1 -->
+
+      <!-- START of Section 1 -->
+      <mj-section background-color="#133483" padding="50px 20px">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-text
+              align="center"
+              color="#ffffff"
+              font-family="Arial"
+              font-size="34px"
+              font-weight="bold"
+            >
+              SmartHome
+            </mj-text>
+            <mj-text
+              align="center"
+              padding-top="20px"
+              color="#ffffff"
+              font-size="20px"
+              font-weight="bold"
+            >
+              Your biggest investment requires the best protection.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Section 1 -->
+
+      <!-- START of Section -->
+      <mj-section background-color="#ffffff" padding="50px 40px">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-text color="#133483" font-size="27px" font-weight="bold">
+              Dear Customer,
+            </mj-text>
+            <mj-text padding-top="20px" color="#333333" font-size="20px">
+              There is nothing more important than a safe and secure home. With
+              AXA SmartHome comprehensive protection plan, you can safeguard the
+              home you have built for you and your loved ones.
+            </mj-text>
+            <mj-button
+              href="https://www.axa.com.sg/our-solutions/personal/home"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              css-class="btn-hover"
+              padding-top="30px"
+              align="left"
+              border-radius="0"
+              background-color="#133483"
+              inner-padding="10px 50px"
+              color="#ffffff"
+              font-size="16px"
+              font-weight="bold"
+              text-transform="uppercase"
+            >
+              Buy Now
+            </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Section 2 -->
+
+      <!-- START of Section 3 -->
+      <mj-section
+        background-color="#f5f5f5"
+        padding="20px 20px 50px"
+        direction="rtl"
+      >
+        <mj-column width="36%" padding="30px 20px 0">
+          <mj-image
+            align="center"
+            src="images/axa-number-one-global-insurance-brand.png"
+            alt="AXA #1 global insurance brand for the 8th consecutive year"
+            width="228px"
+          />
+        </mj-column>
+        <mj-column width="64%" padding="30px 20px 0">
+          <mj-text color="#133483" font-size="18px" font-weight="bold">
+            OneAXA, leading the way in redefining insurance,
+          </mj-text>
+          <mj-text color="#555555" font-size="15px" line-height="1.5">
+            With the merger of life and general insurance into OneAXA, customers
+            remain our top-most priority. AXA Insurance Pte Ltd seeks to offer
+            better customer service, care and personalisation with the MyAXA
+            mobile app for added convenience.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- END of Section 3 -->
+
+      <!-- START of Footer -->
+      <mj-section background-color="#133483" padding="0 20px 18px">
+        <mj-column width="16%" vertical-align="middle" padding-top="20px">
+          <mj-button
+            href="https://www.axa.com.sg/"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            css-class="btn-text-hover"
+            align="center"
+            background-color="transparent"
+            inner-padding="0"
+            color="#ffffff"
+            font-size="12px"
+            font-weight="bold"
+            text-transform="uppercase"
+          >
+            www.axa.com.sg
+          </mj-button>
+        </mj-column>
+        <mj-column width="60%" vertical-align="middle" padding-top="20px">
+          <mj-text
+            align="center"
+            color="#ffffff"
+            font-size="11px"
+            text-transform="uppercase"
+          >
+            Privacy policy © 2017 AXA All rights reserved |
+            <a href="#" class="btn-text btn-text-hover">Unsubscribe</a>
+          </mj-text>
+        </mj-column>
+        <mj-column width="24%" vertical-align="middle" padding-top="20px">
+          <mj-text align="center">
+            <a
+              href="https://www.facebook.com/AXASingapore"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              class="btn-text"
+            >
+              <img
+                src="images/btn-facebook-like.png"
+                alt="Facebook like"
+                class="inline-img social-facebook-img"
+              />
+            </a>
+            &nbsp;&nbsp;
+            <a
+              href="https://www.youtube.com/user/AXASingapore"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              class="btn-text"
+            >
+              <img
+                src="images/btn-youtube.png"
+                alt="YouTube"
+                class="inline-img social-youtube-img"
+              />
+            </a>
+            &nbsp;&nbsp;
+            <a
+              href="https://www.linkedin.com/company/axa/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              class="btn-text"
+            >
+              <img
+                src="images/btn-linkedin.png"
+                alt="LinkedIn"
+                class="inline-img social-linkedin-img"
+              />
+            </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- END of Footer -->
+    </mj-wrapper>
+
+    <mj-raw>
+      <!-- START of Google Tag Manager (noscript) -->
+      <noscript
+        ><iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-TSMLTPT"
+          height="0"
+          width="0"
+          style="display: none; visibility: hidden"
+        ></iframe
+      ></noscript>
+      <!-- END of Google Tag Manager (noscript) -->
+    </mj-raw>
+  </mj-body>
+</mjml>
