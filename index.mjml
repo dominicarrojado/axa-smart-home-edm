@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-title> AXA SmartHome </mj-title>
+    <mj-title> AXA SmartHome | Dominic Arrojado </mj-title>
 
     <!-- START of Global Attributes -->
     <mj-breakpoint width="800px" />
@@ -120,7 +120,7 @@
       />
       <meta property="og:locale" content="en_US" />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="AXA SmartHome - Dominic Arrojado" />
+      <meta property="og:title" content="AXA SmartHome | Dominic Arrojado" />
       <meta
         property="og:description"
         content="Email template for AXA SmartHome"
@@ -129,10 +129,7 @@
         property="og:url"
         content="https://dominicarrojado.com/axa-smart-home-edm/"
       />
-      <meta
-        property="og:site_name"
-        content="AXA SmartHome - Dominic Arrojado"
-      />
+      <meta property="og:site_name" content="Dominic Arrojado" />
       <meta
         property="og:image"
         content="https://dominicarrojado.com/axa-smart-home-edm/images/axa-smart-home-screenshot.png"
@@ -148,7 +145,7 @@
         name="twitter:description"
         content="Email template for AXA SmartHome"
       />
-      <meta name="twitter:title" content="AXA SmartHome - Dominic Arrojado" />
+      <meta name="twitter:title" content="AXA SmartHome | Dominic Arrojado" />
       <meta
         name="twitter:image"
         content="https://dominicarrojado.com/axa-smart-home-edm/images/axa-smart-home-screenshot.png"
